@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/userAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera" />
+
+        <TextView
+            android:id="@+id/funcBrief"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/briefView" />
+        <TextView
+            android:id="@+id/funcComplex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/complexView" />
+        <TextView
+            android:id="@+id/books"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/books" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

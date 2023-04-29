@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+
+        </activity>
+        <activity android:name=".BriefActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+        </activity>
+        <activity android:name=".ComplexActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+        </activity>
+        <activity
+            android:name=".VocabularyBookActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="briefView">简要页面的名字</string>
+    <string name="complexView">复杂页面的名字</string>
+    <string name="books">单词书</string>
+
+    <string name="known">认识</string>
+    <string name="unknown">不认识</string>
+
+    <string name="setting">设置</string>
+    <string name="preference">偏好</string>
+    <string name="preferenceMusic">音乐</string>
+    <string name="preferenceMovies">影视</string>
+    <string name="preferenceLiterature">文学作品</string>
+
+    <string name="switchMode">切换模式</string>
+</resources>
