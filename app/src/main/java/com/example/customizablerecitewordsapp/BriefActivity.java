@@ -18,16 +18,19 @@ public class BriefActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         briefActivityBinding= BriefActivityBinding.inflate(getLayoutInflater());
         setContentView(briefActivityBinding.getRoot());
-        controller=new Controller(briefActivityBinding);
+        controller=new Controller(this);
 
         // set onClickListener
-        briefActivityBinding.known.setOnClickListener(this);
-        briefActivityBinding.unknown.setOnClickListener(this);
-        briefActivityBinding.gotoComplex.setOnClickListener(this);
+        initOnClickListener();
+
         //
 
     }
-
+    private void initOnClickListener(){
+        briefActivityBinding.known.setOnClickListener(this);
+        briefActivityBinding.unknown.setOnClickListener(this);
+        briefActivityBinding.gotoComplex.setOnClickListener(this);
+    }
     @Override
     public void onClick(View v) {
         int id=v.getId();
@@ -38,7 +41,7 @@ public class BriefActivity extends AppCompatActivity implements View.OnClickList
             //
         }
         else if (id==R.id.gotoComplex){
-            controller.jumpToActivity(this, ComplexActivity.class);
+            controller.jumpToActivity(ComplexActivity.class);
         }
     }
 }

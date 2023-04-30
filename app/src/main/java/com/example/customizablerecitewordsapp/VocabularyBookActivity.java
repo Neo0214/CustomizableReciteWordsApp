@@ -16,7 +16,11 @@ public class VocabularyBookActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         vocabularyBookActivityBinding= VocabularyBookActivityBinding.inflate(getLayoutInflater());
         setContentView(vocabularyBookActivityBinding.getRoot());
-        controller=new Controller(vocabularyBookActivityBinding);
+        controller=new Controller(this);
         //
+        initOnClickListener();
+    }
+    private void initOnClickListener(){
+
     }
 }

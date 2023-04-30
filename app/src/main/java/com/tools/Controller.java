@@ -1,20 +1,29 @@
 package com.tools;
 
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 
 import androidx.viewbinding.ViewBinding;
 
+import com.example.customizablerecitewordsapp.BriefActivity;
+import com.example.customizablerecitewordsapp.ComplexActivity;
 
-public class Controller<T extends ViewBinding> {
-    private T myView;
 
-    public Controller(T _myView) {
-        myView = _myView;
+public class Controller {
+    private final Activity activity;
+
+    public Controller(Activity curActivity) {
+        activity=curActivity;
     }
-    public void jumpToActivity(Context context, Class targetClass) {
-        Intent intent=new Intent(context,targetClass);
-        context.startActivity(intent);
+    public void jumpToActivity(Class targetClass) {
+       Intent intent=new Intent(activity,targetClass);
+       activity.startActivity(intent);
+       if (((activity instanceof BriefActivity) && (targetClass.equals(ComplexActivity.class)))
+               || ((activity instanceof ComplexActivity) && (targetClass.equals(BriefActivity.class)))){
+           activity.finish();
+       }
+
     }
 }
