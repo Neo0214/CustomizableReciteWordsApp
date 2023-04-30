@@ -19,30 +19,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         mainActivityBinding=MainActivityBinding.inflate(getLayoutInflater());
         setContentView(mainActivityBinding.getRoot());
-        controller=new Controller(mainActivityBinding);
+        controller=new Controller(this);
 
         // set onClickListener
+        initOnClickListener();
+
+        //
+    }
+    private void initOnClickListener(){
         mainActivityBinding.userAvatar.setOnClickListener(this);
         mainActivityBinding.funcBrief.setOnClickListener(this);
         mainActivityBinding.funcComplex.setOnClickListener(this);
         mainActivityBinding.books.setOnClickListener(this);
-        //
     }
-
     @Override
     public void onClick(View v) {
         int id=v.getId();
         if (id==R.id.userAvatar){
-            controller.jumpToActivity(this, SettingActivity.class);
+            controller.jumpToActivity(SettingActivity.class);
         }
         else if (id==R.id.funcBrief){
-            controller.jumpToActivity(this, BriefActivity.class);
+            controller.jumpToActivity(BriefActivity.class);
         }
         else if (id==R.id.funcComplex){
-            controller.jumpToActivity(this, ComplexActivity.class);
+            controller.jumpToActivity( ComplexActivity.class);
         }
         else if (id==R.id.books){
-            controller.jumpToActivity(this, VocabularyBookActivity.class);
+            controller.jumpToActivity(VocabularyBookActivity.class);
         }
     }
 }

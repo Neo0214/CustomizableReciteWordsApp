@@ -18,16 +18,19 @@ public class ComplexActivity extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         complexActivityBinding= ComplexActivityBinding.inflate(getLayoutInflater());
         setContentView(complexActivityBinding.getRoot());
-        controller=new Controller(complexActivityBinding);
+        controller=new Controller(this);
 
         // set onClickListener
-        complexActivityBinding.known.setOnClickListener(this);
-        complexActivityBinding.unknown.setOnClickListener(this);
-        complexActivityBinding.gotoBrief.setOnClickListener(this);
+        initOnClickListener();
+
         //
 
     }
-
+    private void initOnClickListener(){
+        complexActivityBinding.known.setOnClickListener(this);
+        complexActivityBinding.unknown.setOnClickListener(this);
+        complexActivityBinding.gotoBrief.setOnClickListener(this);
+    }
     @Override
     public void onClick(View v) {
         int id=v.getId();
@@ -38,7 +41,7 @@ public class ComplexActivity extends AppCompatActivity implements View.OnClickLi
             //
         }
         else if (id==R.id.gotoBrief){
-            controller.jumpToActivity(this, BriefActivity.class);
+            controller.jumpToActivity(BriefActivity.class);
         }
     }
 }

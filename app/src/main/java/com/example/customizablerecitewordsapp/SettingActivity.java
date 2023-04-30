@@ -19,14 +19,16 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         settingActivityBinding= SettingActivityBinding.inflate(getLayoutInflater());
         setContentView(settingActivityBinding.getRoot());
-        controller=new Controller(settingActivityBinding);
+        controller=new Controller(this);
 
         // set onClickListener
-
+        initOnClickListener();
         //
 
     }
+    private void initOnClickListener(){
 
+    }
     @Override
     public void onClick(View v) {
         int id=v.getId();
