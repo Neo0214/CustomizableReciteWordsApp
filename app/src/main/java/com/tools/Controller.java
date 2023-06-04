@@ -13,9 +13,10 @@ import com.example.customizablerecitewordsapp.ComplexActivity;
 
 public class Controller {
     private final Activity activity;
-
+    private final AudioHandler audioHandler;
     public Controller(Activity curActivity) {
         activity=curActivity;
+        audioHandler=new AudioHandler();
     }
     public void jumpToActivity(Class targetClass) {
        Intent intent=new Intent(activity,targetClass);
@@ -25,5 +26,8 @@ public class Controller {
            activity.finish();
        }
 
+    }
+    public void playNextAudio(){
+        audioHandler.playNextAudio(activity);
     }
 }
