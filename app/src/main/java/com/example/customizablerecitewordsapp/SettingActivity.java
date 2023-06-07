@@ -4,10 +4,8 @@ package com.example.customizablerecitewordsapp;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.customizablerecitewordsapp.databinding.BriefActivityBinding;
 import com.example.customizablerecitewordsapp.databinding.SettingActivityBinding;
 import com.tools.Controller;
 
@@ -15,7 +13,7 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
     private SettingActivityBinding settingActivityBinding;
     Controller controller;
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         settingActivityBinding= SettingActivityBinding.inflate(getLayoutInflater());
         setContentView(settingActivityBinding.getRoot());
