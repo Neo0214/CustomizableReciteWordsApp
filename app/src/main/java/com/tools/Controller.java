@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import androidx.viewbinding.ViewBinding;
+import com.example.customizablerecitewordsapp.R;
 
 import com.example.customizablerecitewordsapp.BriefActivity;
 import com.example.customizablerecitewordsapp.ComplexActivity;
@@ -28,6 +29,6 @@ public class Controller {
 
     }
     public void playNextAudio(){
-        audioHandler.playNextAudio(activity);
+        audioHandler.playAudio(activity,R.raw.testaudio);
     }
 }
