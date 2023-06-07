@@ -1,7 +1,7 @@
 <resources>
-    <string name="briefView">简要页面的名字</string>
-    <string name="complexView">复杂页面的名字</string>
-    <string name="books">单词书</string>
+    <string name="briefView">简洁模式</string>
+    <string name="complexView">复杂模式</string>
+    <string name="books">复习模式</string>
 
     <string name="known">认识</string>
     <string name="unknown">不认识</string>
@@ -13,4 +13,6 @@
     <string name="preferenceLiterature">文学作品</string>
 
     <string name="switchMode">切换模式</string>
+
+    <string name="infoma">今天是6月12号，开启新的学习之旅吧</string>
 </resources>
