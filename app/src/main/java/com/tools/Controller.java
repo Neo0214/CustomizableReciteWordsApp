@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.example.customizablerecitewordsapp.BriefActivity;
 import com.example.customizablerecitewordsapp.ComplexActivity;
+import com.example.customizablerecitewordsapp.R;
 
 import org.w3c.dom.Text;
 
@@ -35,7 +36,7 @@ public class Controller {
 
     }
     public void playNextAudio(){
-        audioHandler.playAudio(activity,R.raw.testaudio);
+        audioHandler.playAudio(activity, R.raw.testaudio);
     }
 
     public void nextWord(){
