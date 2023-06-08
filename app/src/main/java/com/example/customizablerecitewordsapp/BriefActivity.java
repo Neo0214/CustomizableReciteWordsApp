@@ -35,10 +35,10 @@ public class BriefActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         int id=v.getId();
         if (id==R.id.known){
-            // call controller to do something
+            controller.nextWord(); // 进入下一个词
         }
         else if (id==R.id.unknown){
-            //
+            controller.showSentence();
         }
         else if (id==R.id.gotoComplex){
             controller.jumpToActivity(ComplexActivity.class);
