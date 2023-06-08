@@ -13,8 +13,7 @@
     <string name="preferenceLiterature">文学作品</string>
 
     <string name="switchMode">切换模式</string>
-<<<<<<< Updated upstream
-=======
+
 
     <string name="infoma">今天是6月12号，开启新的学习之旅吧</string>
     <string name="bubble">bubble</string>
@@ -27,5 +26,5 @@
     <string name="kite_ch">n.风筝</string>
 
 
->>>>>>> Stashed changes
+
 </resources>
