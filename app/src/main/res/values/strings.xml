@@ -13,4 +13,19 @@
     <string name="preferenceLiterature">文学作品</string>
 
     <string name="switchMode">切换模式</string>
+<<<<<<< Updated upstream
+=======
+
+    <string name="infoma">今天是6月12号，开启新的学习之旅吧</string>
+    <string name="bubble">bubble</string>
+    <string name="some_id">1/10</string>
+    <string name="tips">试着根据以下图片及中文提示选择单词的含义吧！</string>
+    <string name="b_bl_">/’bʌbl/</string>
+    <string name="bubble_ch">n.气泡，泡沫；v.冒泡</string>
+    <string name="base_ch">n.根基，底部；基础</string>
+    <string name="business_ch">n.商业，买卖</string>
+    <string name="kite_ch">n.风筝</string>
+
+
+>>>>>>> Stashed changes
 </resources>
