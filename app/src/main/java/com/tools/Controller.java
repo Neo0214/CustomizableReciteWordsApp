@@ -40,8 +40,8 @@ public class Controller {
 
     public void nextWord(){
         curWord++; // next word
-        setTextViewText(words,vocabulary[curWord]);
-        setTextViewText(numbers,String.valueOf(curWord));
+        setTextViewText("words",vocabulary[curWord]);
+        setTextViewText("numbers",String.valueOf(curWord));
     }
 
     public void showSentence()
