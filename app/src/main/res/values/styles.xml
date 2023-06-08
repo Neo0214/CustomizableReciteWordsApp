@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bubble">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="some_id"><item name="android:textSize">12sp</item>
+        <item name="android:textColor">#525355</item></style>
+
+    <style name="tips"><item name="android:textSize">12sp</item>
+        <item name="android:textColor">#525355</item></style>
+
+    <style name="b_bl_"><item name="android:textSize">20sp</item>
+        <item name="android:textColor">#121212</item></style>
+
+    <style name="bubble_ch"><item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item></style>
+
+    <style name="base_ch"><item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item></style>
+
+    <style name="business_ch"><item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item></style>
+
+    <style name="kite_ch"><item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item></style>
+
+</resources>
+

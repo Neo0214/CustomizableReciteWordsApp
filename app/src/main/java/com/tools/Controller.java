@@ -35,7 +35,7 @@ public class Controller {
 
     }
     public void playNextAudio(){
-        audioHandler.playNextAudio(activity);
+        audioHandler.playAudio(activity,R.raw.testaudio);
     }
 
     public void nextWord(){
