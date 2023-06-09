@@ -118,8 +118,13 @@
             android:gravity="top"
             android:text="@string/b_bl_"
             android:textAppearance="@style/b_bl_" />
+<<<<<<< Updated upstream
 
     </LinearLayout>
+=======
+    </LinearLayout>
+
+>>>>>>> Stashed changes
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
