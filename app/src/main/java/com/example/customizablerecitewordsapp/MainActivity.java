@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id=v.getId();
         if (id==R.id.userAvatar){
             controller.jumpToActivity(SettingActivity.class);
-            controller.playNextAudio();
         }
         else if (id==R.id.funcBrief){
             controller.jumpToActivity(BriefActivity.class);

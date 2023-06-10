@@ -13,8 +13,7 @@
     <string name="preferenceLiterature">文学作品</string>
 
     <string name="switchMode">切换模式</string>
-<<<<<<< Updated upstream
-=======
+
 
     <string name="infoma">今天是6月12号，开启新的学习之旅吧</string>
     <string name="bubble">bubble</string>
@@ -25,11 +24,10 @@
     <string name="base_ch">n.根基，底部；基础</string>
     <string name="business_ch">n.商业，买卖</string>
     <string name="kite_ch">n.风筝</string>
-<<<<<<< Updated upstream
 
 
->>>>>>> Stashed changes
-=======
+
+
     <string name="n_">n.</string>
     <string name="n_explain">气泡，泡沫; 经济泡沫; (欲表达\n的)一点感情; 气泡框; 泡状物; \n安全的地方(或位置); 泡螺\n</string>
     <string name="v_">v.</string>
@@ -45,5 +43,4 @@
     <string name="v">v.</string>
 
 
->>>>>>> Stashed changes
 </resources>
