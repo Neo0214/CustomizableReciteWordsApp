@@ -1,31 +1,250 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-    <Button
-        android:id="@+id/known"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/known"
-        ></Button>
-    <Button
-        android:id="@+id/unknown"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/unknown"
-        ></Button>
-    <Button
-        android:id="@+id/gotoBrief"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/switchMode"
-        ></Button>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="92dp">
 
+        <ImageView
+            android:id="@+id/rectangle_1"
+            android:layout_width="23dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rectangle_1" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="12dp"
+            android:gravity="top"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id" />
+
+        <ImageView
+            android:id="@+id/change"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/change" />
+
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/fav" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <TextView
+            android:id="@+id/bubble"
+            android:layout_width="134dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="195dp"
+            android:gravity="top"
+            android:text="@string/bubble"
+            android:textAppearance="@style/bubble" />
+
+        <TextView
+            android:id="@+id/tips"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="45dp"
+            android:gravity="top"
+            android:text="@string/tips"
+            android:textAppearance="@style/tips" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <ImageView
+            android:id="@+id/voice"
+            android:layout_width="19dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="116dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="247dp"
+            android:background="@drawable/voice"
+            />
+
+        <TextView
+            android:id="@+id/b_bl_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="245dp"
+            android:gravity="top"
+            android:text="@string/b_bl_"
+            android:textAppearance="@style/b_bl_" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <ImageView
+            android:id="@+id/bubble_pic"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/bubble_pic" />
+
+        <ImageView
+            android:id="@+id/base_pic"
+            android:layout_width="169dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-162dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/base_pic"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <ImageView
+            android:id="@+id/business_pic"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/business_pic" />
+
+        <ImageView
+            android:id="@+id/kite_pic"
+            android:layout_width="169dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-162dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/kite_pic"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <TextView
+            android:id="@+id/bubble_ch"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="515dp"
+            android:gravity="top"
+            android:text="@string/bubble_ch"
+            android:textAppearance="@style/bubble_ch" />
+
+        <TextView
+            android:id="@+id/base_ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-150dp"
+            android:layout_marginTop="689dp"
+            android:gravity="top"
+            android:text="@string/base_ch"
+            android:textAppearance="@style/base_ch" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <TextView
+            android:id="@+id/business_ch"
+            android:layout_width="99dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="515dp"
+            android:text="@string/business_ch"
+            android:textAppearance="@style/business_ch"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/kite_ch"
+            android:layout_width="50dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="691dp"
+            android:text="@string/kite_ch"
+            android:textAppearance="@style/kite_ch"
+            android:gravity="top"
+            />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

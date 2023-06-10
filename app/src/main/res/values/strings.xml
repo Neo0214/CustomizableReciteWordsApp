@@ -1,7 +1,7 @@
 <resources>
-    <string name="briefView">简要页面的名字</string>
-    <string name="complexView">复杂页面的名字</string>
-    <string name="books">单词书</string>
+    <string name="briefView">简洁模式</string>
+    <string name="complexView">复杂模式</string>
+    <string name="books">复习模式</string>
 
     <string name="known">认识</string>
     <string name="unknown">不认识</string>
@@ -13,4 +13,34 @@
     <string name="preferenceLiterature">文学作品</string>
 
     <string name="switchMode">切换模式</string>
+
+
+    <string name="infoma">今天是6月12号，开启新的学习之旅吧</string>
+    <string name="bubble">bubble</string>
+    <string name="some_id">1/10</string>
+    <string name="tips">试着根据以下图片及中文提示选择单词的含义吧！</string>
+    <string name="b_bl_">/’bʌbl/</string>
+    <string name="bubble_ch">n.气泡，泡沫；v.冒泡</string>
+    <string name="base_ch">n.根基，底部；基础</string>
+    <string name="business_ch">n.商业，买卖</string>
+    <string name="kite_ch">n.风筝</string>
+
+
+
+
+    <string name="n_">n.</string>
+    <string name="n_explain">气泡，泡沫; 经济泡沫; (欲表达\n的)一点感情; 气泡框; 泡状物; \n安全的地方(或位置); 泡螺\n</string>
+    <string name="v_">v.</string>
+    <string name="v_explain">冒泡，沸腾; 发出冒泡的声音;\n忙碌，活跃; 兴奋，激动; (情绪\n、感情等)涌动</string>
+    <string name="the_children">- The Children like to have bubbles in their bath.\n孩子们喜欢浴盆里有肥皂泡。</string>
+    <string name="right">学会了！继续下一词</string>
+    <string name="dy_example">短语示例</string>
+    <string name="plural">bubbles</string>
+    <string name="brief">简明</string>
+    <string name="movie">影视</string>
+    <string name="music">音乐</string>
+    <string name="n">n.</string>
+    <string name="v">v.</string>
+
+
 </resources>

@@ -27,21 +27,17 @@ public class ComplexActivity extends AppCompatActivity implements View.OnClickLi
 
     }
     private void initOnClickListener(){
-        complexActivityBinding.known.setOnClickListener(this);
-        complexActivityBinding.unknown.setOnClickListener(this);
-        complexActivityBinding.gotoBrief.setOnClickListener(this);
+        complexActivityBinding.bubblePic.setOnClickListener(this);
+
     }
     @Override
     public void onClick(View v) {
         int id=v.getId();
-        if (id==R.id.known){
-            // call controller to do something
+        if (id==R.id.bubble_pic){
+            controller.complexNext();
+
         }
-        else if (id==R.id.unknown){
-            //
-        }
-        else if (id==R.id.gotoBrief){
-            controller.jumpToActivity(BriefActivity.class);
-        }
+
+
     }
 }

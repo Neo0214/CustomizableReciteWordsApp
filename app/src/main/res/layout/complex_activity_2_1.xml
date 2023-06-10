@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="92dp">
+
+        <ImageView
+            android:id="@+id/rectangle_1"
+            android:layout_width="23dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rectangle_1" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="12dp"
+            android:gravity="top"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id" />
+
+        <ImageView
+            android:id="@+id/change"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/change" />
+
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/fav" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <TextView
+            android:id="@+id/bubble"
+            android:layout_width="134dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="top"
+            android:text="@string/bubble"
+            android:textAppearance="@style/bubble" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <ImageView
+            android:id="@+id/voice"
+            android:layout_width="19dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/voice"
+            />
+
+        <TextView
+            android:id="@+id/b_bl_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="84dp"
+            android:gravity="top"
+            android:text="@string/b_bl_"
+            android:textAppearance="@style/b_bl_" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <TextView
+            android:id="@+id/n_"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:text="@string/n_"
+            android:textAppearance="@style/n_"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/n_explain"
+            android:layout_width="280dp"
+            android:layout_height="83dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="125dp"
+            android:text="@string/n_explain"
+            android:textAppearance="@style/n_explain"
+            android:gravity="top"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <TextView
+            android:id="@+id/v_"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="210dp"
+            android:text="@string/v_"
+            android:textAppearance="@style/v_"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/v_explain"
+            android:layout_width="280dp"
+            android:layout_height="83dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="218dp"
+            android:text="@string/v_explain"
+            android:textAppearance="@style/v_explain"
+            android:gravity="top"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="340dp"
+            android:background="@color/white"
+            android:alpha="0.6"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="310dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dy_example"
+            android:layout_width="94dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-338dp"
+            android:text="@string/dy_example"
+            android:textAppearance="@style/dy_example"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/dy_1"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="0dp"
+            android:text="- bubble economy"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/dy_1_1"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="0dp"
+            android:text="泡沫经济"
+            android:textAlignment="center"
+            android:textAppearance="@style/dy_1_1" />
+
+        <TextView
+            android:id="@+id/dy_2"
+            android:layout_width="174dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="0dp"
+            android:text="- air bubble"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/dy_2_1"
+            android:layout_width="70dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="0dp"
+            android:text="气泡"
+            android:textAlignment="center"
+            android:textAppearance="@style/dy_2_1" />
+
+        <TextView
+            android:id="@+id/dy_3"
+            android:layout_width="180dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="0dp"
+            android:text="- bubble burst"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/dy_3_1"
+            android:layout_width="100dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="0dp"
+            android:text="泡沫破灭"
+            android:textAlignment="center"
+            android:textAppearance="@style/dy_2_1" />
+
+        <TextView
+            android:id="@+id/plural"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="0dp"
+            android:text="复数"
+            android:textAlignment="center"
+            android:textAppearance="@style/dy_example" />
+        <TextView
+            android:id="@+id/bubbles"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-33dp"
+            android:text="bubbles"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/similar"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="3dp"
+            android:text="同近义词"
+            android:textAlignment="center"
+            android:textAppearance="@style/dy_example" />
+        <TextView
+            android:id="@+id/foam"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="-33dp"
+            android:text="foam"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/similar_root"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="3dp"
+            android:text="同根词"
+            android:textAlignment="center"
+            android:textAppearance="@style/dy_example" />
+        <TextView
+            android:id="@+id/bubbly"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="-33dp"
+            android:text="bubbly"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/root_ch"
+            android:layout_width="150dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-24dp"
+            android:text="起泡的，多泡的"
+            android:textAlignment="center"
+            android:textAppearance="@style/dy_2_1" />
+
+        <ImageView
+            android:id="@+id/vector_up"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="305dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/vector_up"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="90dp">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="660dp"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/right"
+            android:layout_width="210dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="95dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-45dp"
+            android:text="@string/right"
+            android:textAppearance="@style/right"
+            android:gravity="top"
+            />
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

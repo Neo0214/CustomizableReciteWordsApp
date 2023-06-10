@@ -8,30 +8,71 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="@drawable/gradient_background"
         android:orientation="vertical"
-        >
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="89dp" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/infoma"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
 
         <ImageView
             android:id="@+id/userAvatar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu_camera" />
+            android:layout_width="57dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:src="@drawable/checkout" />
 
-        <TextView
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+        <Button
             android:id="@+id/funcBrief"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:alpha="0.7"
+            android:background="@drawable/button_style"
             android:text="@string/briefView" />
-        <TextView
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+        <Button
             android:id="@+id/funcComplex"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:alpha="0.7"
+            android:background="@drawable/button_style"
             android:text="@string/complexView" />
-        <TextView
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+        <Button
             android:id="@+id/books"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:alpha="0.7"
+            android:background="@drawable/button_style"
             android:text="@string/books" />
 
     </LinearLayout>
