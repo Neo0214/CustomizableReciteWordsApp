@@ -27,8 +27,6 @@
     <style name="kite_ch"><item name="android:textSize">15sp</item>
         <item name="android:textColor">#FFFFFF</item></style>
 
-<<<<<<< Updated upstream
-=======
     <style name="n_"><item name="android:textSize">20sp</item>
         <item name="android:textColor">#444444</item></style>
 
@@ -65,6 +63,5 @@
         <item name="android:textColor">#FDBFBF</item></style>
 
 
->>>>>>> Stashed changes
 </resources>
 
