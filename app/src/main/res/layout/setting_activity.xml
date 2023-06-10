@@ -1,18 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    tools:layout_editor_absoluteX="-16dp">
+
     >
+
+    <!-- 你好，今天是6月1日， 开启新的学习之旅吧！ -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="这里是偏好设置"
-        ></TextView>
+        android:id="@+id/some_id"
+        android:layout_width="271dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="42dp"
+        android:text="@string/infoma"
+        android:gravity="top"
+        />
 
 
+    <LinearLayout
+        android:layout_width="321dp"
+        android:layout_height="700dp"
+        android:background="@color/white"
+        android:alpha="0.6"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <TextView
+            android:id="@+id/set"
+            android:layout_width="141dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="100dp"
+            android:text="学习设置"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="105dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />
+
+
+    </LinearLayout>
 
 </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

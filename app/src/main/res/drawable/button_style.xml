@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
- <shape xmlns:android="http://schemas.android.com/apk/res/android"
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <solid android:color="@color/white"/>
     <!-- 设置按下后颜色深浅 -->

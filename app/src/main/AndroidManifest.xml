@@ -9,31 +9,26 @@
         android:icon="@drawable/ic_launcher_foreground"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.NoTitleBar"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+            android:exported="true">
         </activity>
         <activity
             android:name=".SettingActivity"
-            android:exported="false"
-            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+            android:exported="false">
 
         </activity>
         <activity android:name=".BriefActivity"
-            android:exported="false"
-            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+            android:exported="false">
         </activity>
         <activity android:name=".ComplexActivity"
-            android:exported="false"
-            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+            android:exported="false">
         </activity>
         <activity
             android:name=".VocabularyBookActivity"
-            android:exported="false"
-            android:theme="@style/Theme.CustomizableReciteWordsApp.NoActionBar">
+            android:exported="false">
         </activity>
     </application>
 
