@@ -124,7 +124,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="120dp"
             android:text="@string/n_"
-            android:textAppearance="@style/n_"
+
             android:gravity="top"
             />
 
@@ -137,7 +137,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="125dp"
             android:text="@string/n_explain"
-            android:textAppearance="@style/n_explain"
+
             android:gravity="top"
             />
     </LinearLayout>
@@ -158,7 +158,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="210dp"
             android:text="@string/v_"
-            android:textAppearance="@style/v_"
+
             android:gravity="top"
             />
 
@@ -171,7 +171,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="218dp"
             android:text="@string/v_explain"
-            android:textAppearance="@style/v_explain"
+
             android:gravity="top"
             />
 
@@ -220,7 +220,7 @@
             android:layout_marginTop="0dp"
             android:text="泡沫经济"
             android:textAlignment="center"
-            android:textAppearance="@style/dy_1_1" />
+             />
 
         <TextView
             android:id="@+id/dy_2"
@@ -245,7 +245,7 @@
             android:layout_marginTop="0dp"
             android:text="气泡"
             android:textAlignment="center"
-            android:textAppearance="@style/dy_2_1" />
+             />
 
         <ImageView
             android:id="@+id/vector"
@@ -290,7 +290,7 @@
             android:layout_marginTop="-180dp"
             android:gravity="top"
             android:text="@string/the_children"
-            android:textAppearance="@style/the_children" />
+             />
 
         <ImageView
             android:id="@+id/children_bath"
@@ -345,8 +345,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="-45dp"
             android:text="@string/right"
-            android:textAppearance="@style/right"
-            android:gravity="top"
+            android:textAlignment="center"
+            android:gravity="center"
             />
     </LinearLayout>
 

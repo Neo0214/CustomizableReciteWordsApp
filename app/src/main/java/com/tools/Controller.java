@@ -11,7 +11,7 @@ import com.example.customizablerecitewordsapp.ComplexActivity;
 import com.example.customizablerecitewordsapp.R;
 
 import org.w3c.dom.Text;
-
+import android.widget.ImageView;
 
 public class Controller {
     private final Activity activity;
@@ -59,4 +59,27 @@ public class Controller {
         textView.setText(text); // 更新控件的文本内容
     }
 
+    public void complexNext(){
+        curWord++;
+        // 修改some_id
+        String tmpID=String.valueOf(curWord+1)+"/10";
+        int textId=activity.getResources().getIdentifier("some_id","id",activity.getPackageName());
+        TextView textView=activity.findViewById(textId);
+        textView.setText(tmpID);
+
+    }
+
+    /* 播放音频，parameter: 音频名称 */
+    public void playSound(String soundName){
+        int audioID=activity.getResources().getIdentifier(soundName,"id", activity.getPackageCodePath());
+        audioHandler.playAudio(activity,audioID);
+    }
+
+    //修改图片资源
+    public void setImage(String imageName, String imageResName) {
+        int resID = activity.getResources().getIdentifier(imageResName, "drawable", activity.getPackageName());
+        ImageView imageView = activity.findViewById(activity.getResources().getIdentifier(imageName, "id", activity.getPackageName()));
+        imageView.setImageResource(resID);
+    }
+    
 }
