@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -9,36 +10,124 @@
         android:background="@drawable/gradient_background"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                app:srcCompat="@drawable/rectangle_1" />
+
+            <TextView
+                android:id="@+id/page"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="1/10"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/changemodel"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/change" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/fav" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
         <TextView
-            android:id="@+id/unknown"
-            android:layout_width="71dp"
+            android:id="@+id/textView9"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:text="1/10"
-            android:textSize="16dp" />
+            android:layout_gravity="center"
+            android:text="@string/bubble"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/voice" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/b_bl_"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="判断一下自己是否认识这个单词吧!" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="420dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/known"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="36dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/right" />
+
+            <ImageView
+                android:id="@+id/unknown"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="60dp"
+                app:srcCompat="@drawable/wrong" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/get_tip" />
 
         <!-- Rectangle 37 -->
-        <View
-            android:id="@+id/gotoComplex"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="220dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/rectangle_3" />
-
-        <Button
-            android:id="@+id/known"
-            android:layout_width="match_parent"
-            android:layout_height="83dp"
-            android:layout_gravity="center"
-            android:alpha="0.7"
-            android:background="@drawable/button_style"
-            android:text="@string/known" />
 
 
     </LinearLayout>

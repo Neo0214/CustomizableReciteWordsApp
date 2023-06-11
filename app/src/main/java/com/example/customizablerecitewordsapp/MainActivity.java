@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //
     }
     private void initOnClickListener(){
-        mainActivityBinding.userAvatar.setOnClickListener(this);
+        mainActivityBinding.StudySetting.setOnClickListener(this);
         mainActivityBinding.funcBrief.setOnClickListener(this);
         mainActivityBinding.funcComplex.setOnClickListener(this);
         mainActivityBinding.books.setOnClickListener(this);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         int id=v.getId();
-        if (id==R.id.userAvatar){
+        if (id==R.id.StudySetting){
             controller.jumpToActivity(SettingActivity.class);
         }
         else if (id==R.id.funcBrief){

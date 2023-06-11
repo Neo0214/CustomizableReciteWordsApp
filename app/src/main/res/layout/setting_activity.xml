@@ -33,6 +33,7 @@
             android:layout_width="321dp"
             android:layout_height="630dp"
             android:layout_gravity="center"
+            android:layout_marginTop="15dp"
             android:alpha="0.6"
             android:background="#FFFFFF"
             android:orientation="vertical">
@@ -111,11 +112,12 @@
                     android:text="更多设置" />
 
                 <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="20dp"
+                    android:id="@+id/imageView7"
+                    android:layout_width="18dp"
                     android:layout_height="20dp"
                     android:layout_marginLeft="5dp"
-                    app:srcCompat="@drawable/point_down" />
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/vector" />
 
             </LinearLayout>
 

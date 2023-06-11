@@ -7,7 +7,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.customizablerecitewordsapp.databinding.BriefActivityBinding;
-import com.example.customizablerecitewordsapp.databinding.MainActivityBinding;
 import com.tools.Controller;
 
 public class BriefActivity extends AppCompatActivity implements View.OnClickListener{
@@ -29,7 +28,7 @@ public class BriefActivity extends AppCompatActivity implements View.OnClickList
     private void initOnClickListener(){
         briefActivityBinding.known.setOnClickListener(this);
         briefActivityBinding.unknown.setOnClickListener(this);
-        briefActivityBinding.gotoComplex.setOnClickListener(this);
+        briefActivityBinding.changemodel.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -37,10 +36,10 @@ public class BriefActivity extends AppCompatActivity implements View.OnClickList
         if (id==R.id.known){
             controller.nextWord(); // 进入下一个词
         }
-        else if (id==R.id.unknown){
+        else if (id==R.id.page){
             controller.showSentence();
         }
-        else if (id==R.id.gotoComplex){
+        else if (id==R.id.changemodel){
             controller.jumpToActivity(ComplexActivity.class);
         }
     }
