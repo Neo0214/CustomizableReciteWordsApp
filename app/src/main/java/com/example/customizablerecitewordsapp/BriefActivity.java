@@ -28,6 +28,7 @@ public class BriefActivity extends AppCompatActivity implements View.OnClickList
     private void initOnClickListener(){
         briefActivityBinding.known.setOnClickListener(this);
         briefActivityBinding.unknown.setOnClickListener(this);
+        briefActivityBinding.sound.setOnClickListener(this);
         briefActivityBinding.changemodel.setOnClickListener(this);
     }
     @Override
@@ -36,8 +37,12 @@ public class BriefActivity extends AppCompatActivity implements View.OnClickList
         if (id==R.id.known){
             controller.nextWord(); // 进入下一个词
         }
-        else if (id==R.id.page){
-            controller.showSentence();
+        else if (id==R.id.unknown){
+            controller.jumpToActivity(BriefActivity_1.class);;
+        }
+        else if(id==R.id.sound){
+            int audioID=getResources().getIdentifier("bubble_sound","raw", getPackageName());
+            controller.playSound(audioID);
         }
         else if (id==R.id.changemodel){
             controller.jumpToActivity(ComplexActivity.class);

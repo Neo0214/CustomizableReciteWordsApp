@@ -28,6 +28,11 @@ public class ComplexActivity extends AppCompatActivity implements View.OnClickLi
     }
     private void initOnClickListener(){
         complexActivityBinding.bubblePic.setOnClickListener(this);
+        complexActivityBinding.businessPic.setOnClickListener(this);
+        complexActivityBinding.basePic.setOnClickListener(this);
+        complexActivityBinding.kitePic.setOnClickListener(this);
+        complexActivityBinding.voice.setOnClickListener(this);
+        complexActivityBinding.change.setOnClickListener(this);
 
     }
     @Override
@@ -35,9 +40,23 @@ public class ComplexActivity extends AppCompatActivity implements View.OnClickLi
         int id=v.getId();
         if (id==R.id.bubble_pic){
             controller.complexNext();
-
         }
-
+        else if(id==R.id.business_pic){
+            controller.jumpToActivity(ComplexActivity_1.class);
+        }
+        else if(id==R.id.base_pic){
+            controller.jumpToActivity(ComplexActivity_1.class);
+        }
+        else if(id==R.id.kite_pic){
+            controller.jumpToActivity(ComplexActivity_1.class);
+        }
+        else if(id==R.id.voice){
+            int audioID=getResources().getIdentifier("bubble_sound","raw", getPackageName());
+            controller.playSound(audioID);
+        }
+        else if(id==R.id.change){
+            controller.jumpToActivity(BriefActivity.class);
+        }
 
     }
 }

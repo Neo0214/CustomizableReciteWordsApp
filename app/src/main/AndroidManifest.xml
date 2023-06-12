@@ -12,24 +12,26 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".ComplexActivity_1"
+            android:exported="false" />
+        <activity
+            android:name=".BriefActivity_1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".SettingActivity"
-            android:exported="false">
-
-        </activity>
-        <activity android:name=".BriefActivity"
-            android:exported="false">
-        </activity>
-        <activity android:name=".ComplexActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
+        <activity
+            android:name=".BriefActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComplexActivity"
+            android:exported="false" />
         <activity
             android:name=".VocabularyBookActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

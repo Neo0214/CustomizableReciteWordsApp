@@ -69,9 +69,8 @@ public class Controller {
 
     }
 
-    /* 播放音频，parameter: 音频名称 */
-    public void playSound(String soundName){
-        int audioID=activity.getResources().getIdentifier(soundName,"id", activity.getPackageCodePath());
+    /* 播放音频，parameter: 音频ID */
+    public void playSound(int audioID){
         audioHandler.playAudio(activity,audioID);
     }
 

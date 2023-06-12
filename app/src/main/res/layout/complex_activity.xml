@@ -43,7 +43,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="200dp"
             android:layout_marginTop="15dp"
-            android:background="@drawable/change" />
+            android:background="@drawable/change"
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/fav"
@@ -101,11 +102,11 @@
             android:layout_width="19dp"
             android:layout_height="21dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="116dp"
             android:layout_alignParentTop="true"
+            android:layout_marginLeft="116dp"
             android:layout_marginTop="247dp"
             android:background="@drawable/voice"
-            />
+            android:clickable="true" />
 
         <TextView
             android:id="@+id/b_bl_"
@@ -136,18 +137,19 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="400dp"
-            android:background="@drawable/bubble_pic" />
+            android:background="@drawable/bubble_pic"
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/base_pic"
             android:layout_width="169dp"
             android:layout_height="140dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="-162dp"
             android:layout_alignParentTop="true"
+            android:layout_marginLeft="-162dp"
             android:layout_marginTop="580dp"
             android:background="@drawable/base_pic"
-            />
+            android:clickable="true" />
 
     </LinearLayout>
 
@@ -166,18 +168,19 @@
             android:layout_alignParentTop="true"
             android:layout_marginLeft="220dp"
             android:layout_marginTop="400dp"
-            android:background="@drawable/business_pic" />
+            android:background="@drawable/business_pic"
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/kite_pic"
             android:layout_width="169dp"
             android:layout_height="140dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="-162dp"
             android:layout_alignParentTop="true"
+            android:layout_marginLeft="-162dp"
             android:layout_marginTop="580dp"
             android:background="@drawable/kite_pic"
-            />
+            android:clickable="true" />
 
     </LinearLayout>
     <LinearLayout
